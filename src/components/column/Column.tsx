@@ -1,6 +1,7 @@
 import "./Column.scss";
 
 type Props = {
+  color: string;
   icon: string;
   title: string;
   description: string;
@@ -8,7 +9,7 @@ type Props = {
 export const Column = (props: Props) => {
   return (
     <>
-      <div className="column-container">
+      <div className={`column-container ${props.color}`}>
         <div className="icon">
           <img src={props.icon} alt="sedan icons" />
         </div>

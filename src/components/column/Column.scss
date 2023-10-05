@@ -1,7 +1,6 @@
 @use "../../sassStyles/" as *;
 
 .column-container {
-  background-color: $brightOrange;
   border: 1px solid black;
   border-radius: 8px;
   display: flex;
@@ -12,4 +11,14 @@
   padding: 48px;
 }
 
+.orange {
+  background-color: $brightOrange;
+}
 
+.darkCyan {
+  background-color: $darkCyan;
+}
+
+.veryDarkCyan {
+  background-color: $veryDarkCyan;
+}
