@@ -1,3 +1,5 @@
+import "./Column.scss";
+
 type Props = {
   icon: string;
   title: string;

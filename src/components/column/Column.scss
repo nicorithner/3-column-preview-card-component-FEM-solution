@@ -1,0 +1,10 @@
+.column-container {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 307px;
+  min-height: 500px;
+  padding: 48px;
+}
