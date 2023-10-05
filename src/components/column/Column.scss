@@ -1,4 +1,7 @@
+@use "../../sassStyles/" as *;
+
 .column-container {
+  background-color: $brightOrange;
   border: 1px solid black;
   border-radius: 8px;
   display: flex;
@@ -8,3 +11,5 @@
   min-height: 500px;
   padding: 48px;
 }
+
+

@@ -1,4 +1,4 @@
-@import "../sassStyles/variables";
+@use "../sassStyles/" as *;
 
 *, *::before, *::after {
   box-sizing: border-box;
