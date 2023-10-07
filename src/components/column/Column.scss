@@ -1,7 +1,6 @@
 @use "../../sassStyles/" as *;
 
 .column-container {
-  border-radius: toRem(8);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,4 +41,12 @@
   width: toRem(146);
   height: toRem(48);
   border-radius: toRem(25);
+}
+
+.left-side-clmn {
+  border-radius: toRem(8) 0 0 toRem(8);
+}
+
+.right-side-clmn {
+  border-radius: 0 toRem(8) toRem(8) 0;
 }

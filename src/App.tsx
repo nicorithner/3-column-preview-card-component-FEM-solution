@@ -9,6 +9,7 @@ function App() {
     <>
       <div className="columns-container">
         <Column
+          position={"left-side-clmn"}
           color={"orange"}
           icon={sedanIcon}
           title="SEDAN"
@@ -22,6 +23,7 @@ function App() {
 and off-road adventures. "
         />
         <Column
+          position={"right-side-clmn"}
           color={"veryDarkCyan"}
           icon={luxuryIcon}
           title="LUXURY"
