@@ -12,4 +12,5 @@ export default defineConfig({
       },
     },
   },
+  base: "/3-column-preview-card-component-FEM-solution/",
 });
