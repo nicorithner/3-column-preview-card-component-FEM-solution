@@ -38,6 +38,7 @@
   height: toRem(48);
   border-radius: toRem(25);
   border: none;
+  cursor: pointer;
 }
 
 .description,
@@ -50,15 +51,31 @@
 
 .orange-btn {
   color: $brightOrange;
+  &:hover {
+    border: 1px solid $veryLightGray;
+    color: $veryLightGray;
+    background-color: $brightOrange;
+  }
 }
 
 .darkCyan-btn {
   color: $darkCyan;
+  &:hover {
+    border: 1px solid $veryLightGray;
+    color: $veryLightGray;
+    background-color: $darkCyan;
+  }
 }
 
 .veryDarkCyan-btn {
   color: $veryDarkCyan;
+  &:hover {
+    border: 1px solid $veryLightGray;
+    color: $veryLightGray;
+    background-color: $veryDarkCyan;
+  }
 }
+
 .left-side-clmn {
   border-radius: toRem(8) 0 0 toRem(8);
 }
