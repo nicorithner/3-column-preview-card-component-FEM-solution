@@ -16,7 +16,7 @@ export const Column = (props: Props) => {
         </div>
         <div className="title">{props.title}</div>
         <p className="description">{props.description} </p>
-        <button className="learn-more-btn">Learn More</button>
+        <button className={`learn-more-btn ${props.color}-btn`}>Learn More</button>
       </div>
     </>
   );

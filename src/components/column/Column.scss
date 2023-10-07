@@ -29,11 +29,7 @@
 }
 
 .description {
-  font-family: $lexend;
-  font-weight: 400;
-  font-size: toRem(15);
   color: $veryLightGray;
-  line-height: toRem(25);
 }
 
 .learn-more-btn {
@@ -41,8 +37,28 @@
   width: toRem(146);
   height: toRem(48);
   border-radius: toRem(25);
+  border: none;
 }
 
+.description,
+.learn-more-btn {
+  font-family: $lexend;
+  font-weight: 400;
+  font-size: toRem(15);
+  line-height: toRem(25);
+}
+
+.orange-btn {
+  color: $brightOrange;
+}
+
+.darkCyan-btn {
+  color: $darkCyan;
+}
+
+.veryDarkCyan-btn {
+  color: $veryDarkCyan;
+}
 .left-side-clmn {
   border-radius: toRem(8) 0 0 toRem(8);
 }
