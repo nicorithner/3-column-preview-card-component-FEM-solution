@@ -7,6 +7,11 @@
   width: toRem(307);
   min-height: toRem(500);
   padding: toRem(48);
+
+  @include mobileBreakPoint {
+    width: auto;
+    padding: toRem(50);
+  }
 }
 
 .orange {
@@ -21,6 +26,21 @@
   background-color: $veryDarkCyan;
 }
 
+.left-side-clmn {
+  border-radius: toRem(8) 0 0 toRem(8);
+}
+
+.right-side-clmn {
+  border-radius: 0 toRem(8) toRem(8) 0;
+}
+
+.left-side-clmn,
+.right-side-clmn {
+  @include mobileBreakPoint {
+    border-radius: 0;
+  }
+}
+
 .title {
   font-family: $big-shoulders;
   font-weight: 700;
@@ -30,6 +50,10 @@
 
 .description {
   color: $veryLightGray;
+
+  @include mobileBreakPoint {
+    width: toRem(231);
+  }
 }
 
 .learn-more-btn {
@@ -74,12 +98,4 @@
     color: $veryLightGray;
     background-color: $veryDarkCyan;
   }
-}
-
-.left-side-clmn {
-  border-radius: toRem(8) 0 0 toRem(8);
-}
-
-.right-side-clmn {
-  border-radius: 0 toRem(8) toRem(8) 0;
 }
