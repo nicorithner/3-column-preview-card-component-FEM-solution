@@ -42,6 +42,12 @@ Users should be able to:
     <img src="./public/images/mobile.png" style="width: 300px"/>
   </div>
 
+<div align="center" style="width: 500px">
+
+![](./public/images/mobile-375-video.gif)
+
+</div>
+
 </div>
 
 ### Links
