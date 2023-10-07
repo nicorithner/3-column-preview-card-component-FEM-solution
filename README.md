@@ -52,7 +52,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [github page](https://nicorithner.github.io/FEM-advice-generator-solution/)
+- Live Site URL: [github page](https://nicorithner.github.io/3-column-preview-card-component-FEM-solution/)
 
 ## My process
 
